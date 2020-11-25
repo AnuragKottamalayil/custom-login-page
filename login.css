@@ -9,6 +9,7 @@ body{
     max-width: 400px;
     border-radius: 20px;
     margin-top:80px ;
+    
 }
 .loginbox{
     border-width: 0px;
@@ -32,11 +33,16 @@ body{
     width: 150px;
     border-radius: 30px;
     color: white;
-    background: linear-gradient(rgb(231, 47, 109),rgb(214, 6, 76));
+    background: linear-gradient(rgb(231, 47, 109),rgb(196, 4, 68));
     font-weight: 600;
     font-size: large;
     outline: none;
     cursor: pointer;
+    
+    
+}
+.login:hover{
+    background: linear-gradient(rgb(240, 45, 110),rgb(207, 9, 75));
     
 }
 .heading{
@@ -50,6 +56,15 @@ body{
     .maindiv{
         margin-top: 10px;
         width: 250px;
+        
+        
+    }
+    .img{
+        margin-top: -140px;
+        height: 75px!important;
+        width: 75px!important;
+        
+        
     }
 }
 @media (max-width:320px){
@@ -61,4 +76,11 @@ body{
     color: black;
     text-decoration: none;
 
+}
+.img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100px;
+    width: 100px;
+    margin-bottom:-175px;
+    
 }
